@@ -1,0 +1,822 @@
+{
+  "antibiotics": [
+    {
+      "id": "penicillin-vk",
+      "name": "Penicillin VK",
+      "class": "Penicillins",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "Bacterial endocarditis (high-risk cardiac patients)",
+          "evidence_level": "AHA Class I, LOE B"
+        },
+        {
+          "type": "Treatment",
+          "description": "Mild odontogenic infections (e.g., periapical abscess)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500 mg",
+          "regimen": "Q6H × 7–10 days",
+          "max_daily": "2 g"
+        },
+        "pediatrics": {
+          "dose": "25–50 mg/kg/day",
+          "regimen": "Divided Q6H",
+          "max_daily": "2 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Empty stomach (1 hour before or 2 hours after meals)",
+        "bioavailability": "60-70%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >50 mL/min",
+          "adjustment": "None",
+          "dose_amount": "500 mg Q6H"
+        },
+        {
+          "condition": "CrCl 10–50 mL/min",
+          "adjustment": "50–75% of dose",
+          "dose_amount": "250–375 mg Q6H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "25–50% of dose",
+          "dose_amount": "125–250 mg Q6H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "None required",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Monitor for toxicity",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "contraindications": [
+        "Penicillin allergy",
+        "Infectious mononucleosis (rash risk)",
+        "History of penicillin-induced anaphylaxis"
+      ],
+      "side_effects": {
+        "common": [
+          "Nausea (3-5%)",
+          "Diarrhea (2-4%)",
+          "Vaginal candidiasis (1-3%)"
+        ],
+        "serious": [
+          "Anaphylaxis (1-4/10,000)",
+          "C. difficile colitis (0.1-1%)",
+          "Hemolytic anemia (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Probenecid",
+          "effect": "↑ Penicillin levels (2-4 fold)",
+          "management": "Avoid concurrent use"
+        },
+        {
+          "drug": "Oral contraceptives",
+          "effect": "↓ Efficacy (pregnancy risk)",
+          "management": "Use backup contraception"
+        }
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "name": "Amoxicillin",
+      "class": "Penicillins",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "First-line for endocarditis (AHA 2021)",
+          "evidence_level": "AHA Class I, LOE A"
+        },
+        {
+          "type": "Treatment",
+          "description": "Mild-moderate infections (e.g., cellulitis, periodontitis)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500 mg",
+          "regimen": "Q8H × 7–10 days",
+          "max_daily": "3 g"
+        },
+        "pediatrics": {
+          "dose": "25–50 mg/kg/day",
+          "regimen": "Divided Q8H",
+          "max_daily": "3 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Can be taken with or without food",
+        "bioavailability": "74-92%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "500 mg Q8H"
+        },
+        {
+          "condition": "CrCl 10–30 mL/min",
+          "adjustment": "Extended interval",
+          "dose_amount": "250 mg Q12H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "Extended interval",
+          "dose_amount": "250 mg Q24H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-C",
+          "adjustment": "None required",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "contraindications": [
+        "Penicillin allergy",
+        "History of amoxicillin-induced anaphylaxis"
+      ],
+      "side_effects": {
+        "common": [
+          "Rash (5-10%)",
+          "Diarrhea (3-8%)",
+          "Nausea (2-4%)"
+        ],
+        "serious": [
+          "Anaphylaxis (1-4/10,000)",
+          "Stevens-Johnson syndrome (rare)",
+          "C. difficile colitis (0.1-1%)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Methotrexate",
+          "effect": "↑ Methotrexate toxicity",
+          "management": "Monitor CBC, creatinine, avoid high-dose methotrexate"
+        },
+        {
+          "drug": "Warfarin",
+          "effect": "↑ INR (bleeding risk)",
+          "management": "Monitor INR weekly, adjust warfarin dose"
+        }
+      ]
+    },
+    {
+      "id": "azithromycin",
+      "name": "Azithromycin",
+      "class": "Macrolides",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "Endocarditis prophylaxis (penicillin-allergic patients)",
+          "evidence_level": "AHA Class I, LOE B"
+        },
+        {
+          "type": "Treatment",
+          "description": "Atypical pneumonia, soft tissue infections",
+          "evidence_level": "FDA Approved"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500 mg",
+          "regimen": "Day 1, then 250 mg daily × 4 days",
+          "max_daily": "500 mg"
+        },
+        "pediatrics": {
+          "dose": "10 mg/kg",
+          "regimen": "Day 1, then 5 mg/kg daily × 4 days",
+          "max_daily": "500 mg"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Can be taken with or without food",
+        "bioavailability": "37%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >10 mL/min",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "Macrolide allergy",
+        "History of cholestatic jaundice with azithromycin",
+        "Concurrent use with ergot alkaloids"
+      ],
+      "side_effects": {
+        "common": [
+          "Nausea (5-12%)",
+          "Diarrhea (4-9%)",
+          "Abdominal pain (3-7%)"
+        ],
+        "serious": [
+          "QT prolongation (rare)",
+          "Hepatotoxicity (rare)",
+          "C. difficile colitis (0.1-1%)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Warfarin",
+          "effect": "↑ INR (bleeding risk)",
+          "management": "Monitor INR closely"
+        },
+        {
+          "drug": "Digoxin",
+          "effect": "↑ Digoxin levels",
+          "management": "Monitor digoxin levels"
+        }
+      ]
+    },
+    {
+      "id": "clindamycin",
+      "name": "Clindamycin",
+      "class": "Lincosamides",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "Penicillin-allergic patients (endocarditis)",
+          "evidence_level": "AHA Class I, LOE B"
+        },
+        {
+          "type": "Treatment",
+          "description": "Anaerobic infections (e.g., periodontitis)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "150–300 mg",
+          "regimen": "Q6H × 7–10 days",
+          "max_daily": "1.8 g"
+        },
+        "pediatrics": {
+          "dose": "10–25 mg/kg/day",
+          "regimen": "Divided Q6–8H",
+          "max_daily": "1.8 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Take with full glass of water to avoid esophageal irritation",
+        "bioavailability": "90%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "150–300 mg Q6H"
+        },
+        {
+          "condition": "CrCl 10–30 mL/min",
+          "adjustment": "50% of dose",
+          "dose_amount": "75–150 mg Q6H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "25–50% of dose",
+          "dose_amount": "75–150 mg Q12H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "50% reduction",
+          "dose_amount": "75–150 mg Q6H"
+        }
+      ],
+      "contraindications": [
+        "Lincosamide allergy",
+        "Regional enteritis/ulcerative colitis",
+        "History of C. difficile colitis"
+      ],
+      "side_effects": {
+        "common": [
+          "Diarrhea (10-20%)",
+          "Nausea (2-4%)",
+          "Rash (1-3%)"
+        ],
+        "serious": [
+          "C. difficile colitis (up to 10% of users)",
+          "Anaphylaxis (rare)",
+          "Hepatotoxicity (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Neuromuscular blockers",
+          "effect": "↑ Paralysis risk",
+          "management": "Avoid concurrent use"
+        },
+        {
+          "drug": "Erythromycin",
+          "effect": "Antagonistic",
+          "management": "Avoid concurrent use"
+        }
+      ]
+    },
+    {
+      "id": "metronidazole",
+      "name": "Metronidazole",
+      "class": "Nitroimidazoles",
+      "indications": [
+        {
+          "type": "Treatment",
+          "description": "Anaerobic infections (periodontitis, necrotizing ulcerative gingivitis)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        },
+        {
+          "type": "Treatment",
+          "description": "Combination therapy for severe odontogenic infections",
+          "evidence_level": "Clinical Evidence"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "400-500 mg",
+          "regimen": "Q8H × 7 days",
+          "max_daily": "1.5 g"
+        },
+        "pediatrics": {
+          "dose": "7.5 mg/kg",
+          "regimen": "Q8H × 7 days",
+          "max_daily": "1.5 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Take with food to reduce GI upset",
+        "bioavailability": "100%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >10 mL/min",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "50% reduction",
+          "dose_amount": "200-250 mg Q8H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "50% reduction",
+          "dose_amount": "200-250 mg Q8H"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "Nitroimidazole allergy",
+        "First trimester pregnancy",
+        "Concurrent alcohol use",
+        "Disulfiram use within 2 weeks"
+      ],
+      "side_effects": {
+        "common": [
+          "Metallic taste (15-30%)",
+          "Nausea (10-15%)",
+          "Headache (5-10%)"
+        ],
+        "serious": [
+          "Peripheral neuropathy (prolonged use)",
+          "Seizures (high doses)",
+          "Disulfiram-like reaction with alcohol"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Alcohol",
+          "effect": "Disulfiram-like reaction",
+          "management": "Avoid alcohol during treatment and 48h after"
+        },
+        {
+          "drug": "Warfarin",
+          "effect": "↑ INR (bleeding risk)",
+          "management": "Monitor INR, reduce warfarin dose"
+        }
+      ]
+    }
+  ],
+  "analgesics": [
+    {
+      "id": "ibuprofen",
+      "name": "Ibuprofen",
+      "class": "NSAIDs",
+      "indications": [
+        {
+          "type": "Treatment",
+          "description": "Mild to moderate dental pain, post-operative pain",
+          "evidence_level": "FDA Approved"
+        },
+        {
+          "type": "Treatment",
+          "description": "Anti-inflammatory for periodontal conditions",
+          "evidence_level": "Clinical Evidence"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "400-600 mg",
+          "regimen": "Q6-8H PRN",
+          "max_daily": "2.4 g"
+        },
+        "pediatrics": {
+          "dose": "10 mg/kg",
+          "regimen": "Q6-8H PRN",
+          "max_daily": "40 mg/kg/day"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Take with food to reduce GI upset",
+        "bioavailability": "80-100%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "CrCl <30 mL/min",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "Use with caution",
+          "dose_amount": "Reduce dose by 50%"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "NSAID allergy",
+        "Active GI bleeding",
+        "Severe heart failure",
+        "Third trimester pregnancy",
+        "Severe renal impairment"
+      ],
+      "side_effects": {
+        "common": [
+          "GI upset (10-20%)",
+          "Headache (3-9%)",
+          "Dizziness (3-9%)"
+        ],
+        "serious": [
+          "GI bleeding (1-4%)",
+          "Cardiovascular events (rare)",
+          "Renal impairment (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Warfarin",
+          "effect": "↑ Bleeding risk",
+          "management": "Monitor INR, consider alternative"
+        },
+        {
+          "drug": "ACE inhibitors",
+          "effect": "↓ Antihypertensive effect",
+          "management": "Monitor blood pressure"
+        }
+      ]
+    },
+    {
+      "id": "acetaminophen",
+      "name": "Acetaminophen",
+      "class": "Analgesics",
+      "indications": [
+        {
+          "type": "Treatment",
+          "description": "Mild to moderate dental pain, fever",
+          "evidence_level": "FDA Approved"
+        },
+        {
+          "type": "Treatment",
+          "description": "First-line analgesic for dental procedures",
+          "evidence_level": "ADA Guidelines"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500-1000 mg",
+          "regimen": "Q6H PRN",
+          "max_daily": "4 g"
+        },
+        "pediatrics": {
+          "dose": "10-15 mg/kg",
+          "regimen": "Q4-6H PRN",
+          "max_daily": "75 mg/kg/day"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Can be taken with or without food",
+        "bioavailability": "85-98%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >10 mL/min",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "Extend interval",
+          "dose_amount": "Q8H instead of Q6H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "Reduce dose",
+          "dose_amount": "50-75% of normal dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "Acetaminophen allergy",
+        "Severe hepatic impairment",
+        "Chronic alcohol use (>3 drinks/day)"
+      ],
+      "side_effects": {
+        "common": [
+          "Generally well tolerated",
+          "Rare: skin rash (<1%)"
+        ],
+        "serious": [
+          "Hepatotoxicity (overdose)",
+          "Stevens-Johnson syndrome (rare)",
+          "Acute renal failure (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Warfarin",
+          "effect": "↑ INR with chronic use",
+          "management": "Monitor INR with chronic use"
+        },
+        {
+          "drug": "Alcohol",
+          "effect": "↑ Hepatotoxicity risk",
+          "management": "Limit alcohol consumption"
+        }
+      ]
+    },
+    {
+      "id": "tramadol",
+      "name": "Tramadol",
+      "class": "Opioid Analgesics",
+      "indications": [
+        {
+          "type": "Treatment",
+          "description": "Moderate to severe dental pain",
+          "evidence_level": "FDA Approved"
+        },
+        {
+          "type": "Treatment",
+          "description": "Post-operative pain management",
+          "evidence_level": "Clinical Evidence"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "50-100 mg",
+          "regimen": "Q4-6H PRN",
+          "max_daily": "400 mg"
+        },
+        "pediatrics": {
+          "dose": "Not recommended",
+          "regimen": "Contraindicated <12 years",
+          "max_daily": "N/A"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Can be taken with or without food",
+        "bioavailability": "75%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "CrCl <30 mL/min",
+          "adjustment": "Extend interval",
+          "dose_amount": "Q12H instead of Q6H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "Extend interval",
+          "dose_amount": "Q12H instead of Q6H"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "Tramadol allergy",
+        "Concurrent MAO inhibitors",
+        "Severe respiratory depression",
+        "Children <12 years",
+        "Breastfeeding"
+      ],
+      "side_effects": {
+        "common": [
+          "Nausea (15-40%)",
+          "Dizziness (10-33%)",
+          "Constipation (9-46%)",
+          "Headache (4-32%)"
+        ],
+        "serious": [
+          "Seizures (0.1-0.7%)",
+          "Serotonin syndrome (rare)",
+          "Respiratory depression (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "SSRIs/SNRIs",
+          "effect": "↑ Serotonin syndrome risk",
+          "management": "Monitor for serotonin syndrome"
+        },
+        {
+          "drug": "MAO inhibitors",
+          "effect": "Contraindicated",
+          "management": "Avoid concurrent use"
+        }
+      ]
+    }
+  ],
+  "local_anesthetics": [
+    {
+      "id": "lidocaine-epinephrine",
+      "name": "Lidocaine with Epinephrine",
+      "class": "Local Anesthetics",
+      "indications": [
+        {
+          "type": "Treatment",
+          "description": "Local anesthesia for dental procedures",
+          "evidence_level": "FDA Approved"
+        },
+        {
+          "type": "Treatment",
+          "description": "Infiltration and nerve block anesthesia",
+          "evidence_level": "Standard of Care"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "2% lidocaine with 1:100,000 epinephrine",
+          "regimen": "Max 7 mg/kg lidocaine",
+          "max_daily": "500 mg lidocaine"
+        },
+        "pediatrics": {
+          "dose": "2% lidocaine with 1:100,000 epinephrine",
+          "regimen": "Max 4.4 mg/kg lidocaine",
+          "max_daily": "300 mg lidocaine"
+        }
+      },
+      "administration": {
+        "route": "Injection",
+        "instructions": "Aspirate before injection, inject slowly",
+        "bioavailability": "N/A (local injection)"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "All levels",
+          "adjustment": "None required",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "Use with caution",
+          "dose_amount": "Reduce dose by 50%"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Avoid use",
+          "dose_amount": "Contraindicated"
+        }
+      ],
+      "contraindications": [
+        "Lidocaine allergy",
+        "Epinephrine allergy",
+        "Severe heart block",
+        "Uncontrolled hyperthyroidism"
+      ],
+      "side_effects": {
+        "common": [
+          "Injection site pain",
+          "Temporary numbness",
+          "Mild tachycardia (epinephrine)"
+        ],
+        "serious": [
+          "Anaphylaxis (rare)",
+          "Cardiac arrhythmias (rare)",
+          "CNS toxicity (overdose)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Beta-blockers",
+          "effect": "↑ Hypertensive response",
+          "management": "Use epinephrine-free formulation"
+        },
+        {
+          "drug": "Tricyclic antidepressants",
+          "effect": "↑ Cardiovascular effects",
+          "management": "Use minimal epinephrine concentration"
+        }
+      ]
+    }
+  ],
+  "clinical_pearls": {
+    "renal_dosing_formula": "CrCl (mL/min) = [(140 - age) × weight (kg)] / [72 × SCr (mg/dL)] (× 0.85 for females)",
+    "hepatic_dosing": {
+      "child_pugh_score": {
+        "class_a": "5–6 points (mild)",
+        "class_b": "7–9 points (moderate)",
+        "class_c": "10–15 points (severe)"
+      }
+    },
+    "empiric_therapy_recommendations": {
+      "mild_infection": "Amoxicillin 500 mg TID",
+      "moderate_infection": "Amoxicillin-clavulanate 875/125 mg BID",
+      "severe_infection": "Clindamycin 300 mg QID + Ciprofloxacin 500 mg BID",
+      "penicillin_allergy": "Clindamycin 300 mg QID"
+    },
+    "pain_management_ladder": {
+      "mild_pain": "Acetaminophen 1000mg Q6H or Ibuprofen 400mg Q6H",
+      "moderate_pain": "Acetaminophen 1000mg + Ibuprofen 400mg Q6H",
+      "severe_pain": "Above combination + Tramadol 50-100mg Q6H PRN"
+    },
+    "antibiotic_prophylaxis": {
+      "high_risk_cardiac": "Amoxicillin 2g PO 1 hour before procedure",
+      "penicillin_allergic": "Clindamycin 600mg PO 1 hour before procedure",
+      "unable_oral": "Ampicillin 2g IV/IM 30 minutes before procedure"
+    }
+  }
+}

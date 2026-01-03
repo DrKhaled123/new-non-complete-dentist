@@ -1,0 +1,209 @@
+{
+  "procedures": [
+    {
+      "id": "dental-caries",
+      "name": "Dental Caries",
+      "category": "Restorative",
+      "diagnosis": "Visual detection (white spot/cavitation), tactile softness with explorer, radiographic radiolucency. ICDAS criteria used for classification.",
+      "differential_diagnosis": [
+        "Developmental defects (hypoplasia)",
+        "Fluorosis",
+        "Abrasion",
+        "Erosion",
+        "Stained fissure"
+      ],
+      "investigations": [
+        "Clinical exam",
+        "Bitewing radiographs (proximal caries)",
+        "Periapical radiographs (deep lesions)",
+        "Optional: Laser fluorescence (DIAGNOdent)",
+        "Optional: Transillumination"
+      ],
+      "management_plan": [
+        {
+          "step": 1,
+          "title": "Prevention",
+          "description": "Oral hygiene instruction, fluoride varnish, sealants, diet counseling"
+        },
+        {
+          "step": 2,
+          "title": "Non-cavitated lesions",
+          "description": "Fluoride varnish, remineralization paste, sealant"
+        },
+        {
+          "step": 3,
+          "title": "Cavitated lesions",
+          "description": "Atraumatic Restorative Treatment (ART) or resin infiltration (minimal); composite/GIC restoration (moderate); pulp capping/pulpotomy/pulpectomy (deep)"
+        }
+      ],
+      "references": [
+        "ICDAS Foundation Guidelines",
+        "ADA Caries Classification System"
+      ]
+    },
+    {
+      "id": "gingivitis",
+      "name": "Gingivitis",
+      "category": "Periodontal",
+      "diagnosis": "Bleeding on probing, redness, swelling, no attachment loss, no bone loss.",
+      "differential_diagnosis": [
+        "Periodontitis",
+        "Mucosal lesions (lichen planus)",
+        "Viral gingivostomatitis",
+        "Hormonal gingivitis"
+      ],
+      "investigations": [
+        "Clinical exam (BOP, plaque index)",
+        "Periodontal probing depths",
+        "Optional: Microbial testing"
+      ],
+      "management_plan": [
+        {
+          "step": 1,
+          "title": "Professional prophylaxis",
+          "description": "Scaling and polishing"
+        },
+        {
+          "step": 2,
+          "title": "Oral hygiene instruction",
+          "description": "Bass brushing technique, flossing/interdental brushes"
+        },
+        {
+          "step": 3,
+          "title": "Chemical adjuncts",
+          "description": "Chlorhexidine mouthwash (short-term)"
+        },
+        {
+          "step": 4,
+          "title": "Re-evaluation",
+          "description": "Follow-up at 4-6 weeks"
+        }
+      ],
+      "references": [
+        "AAP Guidelines for Gingivitis",
+        "EFP Clinical Practice Guidelines"
+      ]
+    },
+    {
+      "id": "pulpitis",
+      "name": "Pulpitis",
+      "category": "Endodontic",
+      "diagnosis": "Reversible: Sharp, short pain to cold/hot, no spontaneous pain. Irreversible: Dull, throbbing, lingering pain, spontaneous pain, percussion sensitivity.",
+      "differential_diagnosis": [
+        "Reversible vs. irreversible pulpitis",
+        "Cracked tooth syndrome",
+        "Dentinal hypersensitivity",
+        "Referred pain"
+      ],
+      "investigations": [
+        "Clinical exam",
+        "Pulp sensibility tests (cold/EPT)",
+        "Percussion/palpation",
+        "Radiographs",
+        "Optional: CBCT"
+      ],
+      "management_plan": [
+        {
+          "step": 1,
+          "title": "Reversible pulpitis",
+          "description": "Remove caries, sedative lining (GIC), definitive restoration"
+        },
+        {
+          "step": 2,
+          "title": "Irreversible pulpitis",
+          "description": "Root canal treatment (access, cleaning, shaping, obturation), coronal seal (core + crown), or extraction if unrestorable"
+        }
+      ],
+      "references": [
+        "AAE Guidelines for Pulpal Diagnosis",
+        "ESE Quality Guidelines"
+      ]
+    },
+    {
+      "id": "dental-abscess",
+      "name": "Dental Abscess",
+      "category": "Emergency",
+      "diagnosis": "Periapical: Pain on percussion/vitality tests, swelling, sinus tract, radiographic periapical radiolucency. Periodontal: Deep PPD, suppuration, vertical bone loss.",
+      "differential_diagnosis": [
+        "Periapical vs. periodontal abscess",
+        "Endo-perio lesion",
+        "Odontogenic cyst/tumor"
+      ],
+      "investigations": [
+        "Clinical exam",
+        "Radiographs",
+        "Pulp sensibility tests",
+        "Optional: Aspiration (culture/sensitivity)",
+        "Optional: CBCT"
+      ],
+      "management_plan": [
+        {
+          "step": 1,
+          "title": "Drainage",
+          "description": "Incision & drainage if fluctuant"
+        },
+        {
+          "step": 2,
+          "title": "Antibiotics",
+          "description": "Only if systemic signs (amoxicillin 500mg TDS x5-7 days)"
+        },
+        {
+          "step": 3,
+          "title": "Definitive treatment",
+          "description": "RCT/extraction (periapical); scaling/local antibiotics/surgery (periodontal)"
+        }
+      ],
+      "references": [
+        "ADA Guidelines for Dental Emergencies",
+        "SDCEP Drug Prescribing Guidelines"
+      ]
+    },
+    {
+      "id": "tooth-extraction",
+      "name": "Tooth Extraction",
+      "category": "Oral Surgery",
+      "diagnosis": "Non-restorable tooth, severe periodontal disease, orthodontic requirements, impacted teeth.",
+      "differential_diagnosis": [
+        "Simple vs. surgical extraction",
+        "Immediate vs. delayed extraction",
+        "Single vs. multiple extractions"
+      ],
+      "investigations": [
+        "Clinical exam",
+        "Radiographs (periapical/panoramic)",
+        "Medical history review",
+        "Optional: CBCT for complex cases"
+      ],
+      "management_plan": [
+        {
+          "step": 1,
+          "title": "Pre-operative assessment",
+          "description": "Medical history, consent, local anesthesia"
+        },
+        {
+          "step": 2,
+          "title": "Extraction technique",
+          "description": "Simple: Luxation and elevation; Surgical: Flap, bone removal, sectioning"
+        },
+        {
+          "step": 3,
+          "title": "Post-operative care",
+          "description": "Hemostasis, sutures if needed, post-op instructions"
+        }
+      ],
+      "references": [
+        "AAOMS Guidelines for Extractions",
+        "NICE Guidelines for Tooth Extraction"
+      ]
+    }
+  ],
+  "categories": [
+    "Restorative",
+    "Periodontal",
+    "Endodontic",
+    "Emergency",
+    "Oral Surgery",
+    "Orthodontic",
+    "Prosthodontic"
+  ]
+}

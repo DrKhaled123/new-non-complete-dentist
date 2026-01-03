@@ -1,0 +1,572 @@
+{
+  "materials": [
+    {
+      "id": "composite-resin",
+      "name": "Composite Resin",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Moderate (150-300 MPa)",
+        "aesthetics": "Excellent",
+        "durability": "5-10 years",
+        "biocompatibility": "Good",
+        "thermal_expansion": "Similar to tooth structure",
+        "wear_resistance": "Good",
+        "polishability": "Excellent"
+      },
+      "indications": [
+        "Anterior and posterior restorations",
+        "Veneers",
+        "Inlays and onlays",
+        "Core buildups",
+        "Splinting",
+        "Diastema closure",
+        "Enamel defect repair"
+      ],
+      "contraindications": [
+        "Heavy occlusal forces",
+        "Poor oral hygiene",
+        "Inability to maintain dry field",
+        "Large posterior restorations (relative)",
+        "Subgingival margins (difficult isolation)"
+      ],
+      "handling_characteristics": [
+        "Light-cured or dual-cured",
+        "Requires adhesive bonding",
+        "Technique sensitive",
+        "Incremental placement recommended",
+        "Requires proper isolation",
+        "Finishing and polishing critical"
+      ],
+      "longevity": "5-10 years with proper care",
+      "cost_considerations": "Moderate cost, technique dependent"
+    },
+    {
+      "id": "glass-ionomer",
+      "name": "Glass Ionomer Cement (GIC)",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Low-Moderate (50-150 MPa)",
+        "aesthetics": "Fair",
+        "durability": "3-5 years",
+        "biocompatibility": "Excellent",
+        "fluoride_release": "Yes",
+        "adhesion": "Chemical bond to tooth",
+        "coefficient_thermal_expansion": "Similar to tooth"
+      },
+      "indications": [
+        "Class V restorations",
+        "Root caries",
+        "Pediatric restorations",
+        "Core buildups",
+        "Luting cement",
+        "Atraumatic Restorative Treatment (ART)",
+        "Geriatric dentistry"
+      ],
+      "contraindications": [
+        "High stress areas",
+        "Aesthetic zones (anterior)",
+        "Large restorations",
+        "Patients with poor oral hygiene",
+        "Areas requiring immediate loading"
+      ],
+      "handling_characteristics": [
+        "Chemical cure",
+        "Moisture sensitive during setting",
+        "Self-adhesive to tooth structure",
+        "Easy to manipulate",
+        "Requires protection during initial set",
+        "Can be light-cured (RMGIC)"
+      ],
+      "longevity": "3-5 years, excellent in low-stress areas",
+      "cost_considerations": "Low cost, cost-effective for appropriate indications"
+    },
+    {
+      "id": "amalgam",
+      "name": "Dental Amalgam",
+      "category": "Restorative",
+      "properties": {
+        "strength": "High (300-400 MPa)",
+        "aesthetics": "Poor (metallic)",
+        "durability": "10-15 years",
+        "biocompatibility": "Good (mercury concerns)",
+        "thermal_conductivity": "High",
+        "dimensional_stability": "Excellent",
+        "wear_resistance": "Excellent"
+      },
+      "indications": [
+        "Posterior restorations",
+        "High-stress areas",
+        "Subgingival restorations",
+        "Core buildups",
+        "Large posterior restorations",
+        "Patients with poor oral hygiene"
+      ],
+      "contraindications": [
+        "Aesthetic zones",
+        "Mercury allergy",
+        "Large restorations (cusp replacement)",
+        "Pregnancy (relative)",
+        "Pediatric patients (relative)",
+        "Galvanic reactions with other metals"
+      ],
+      "handling_characteristics": [
+        "Chemical cure",
+        "Requires mechanical retention",
+        "Easy to place",
+        "Immediate strength",
+        "Condensation technique critical",
+        "Carving window limited"
+      ],
+      "longevity": "10-15 years, excellent durability",
+      "cost_considerations": "Low cost, highly cost-effective"
+    },
+    {
+      "id": "porcelain-crown",
+      "name": "All-Ceramic Crown (Feldspathic Porcelain)",
+      "category": "Prosthodontic",
+      "properties": {
+        "strength": "Moderate (100-150 MPa)",
+        "aesthetics": "Excellent",
+        "durability": "10-15 years",
+        "biocompatibility": "Excellent",
+        "thermal_expansion": "Similar to tooth",
+        "translucency": "Excellent",
+        "color_stability": "Excellent"
+      },
+      "indications": [
+        "Anterior crowns",
+        "Veneers",
+        "Inlays/onlays",
+        "Aesthetic zones",
+        "Metal allergies",
+        "Single anterior crowns"
+      ],
+      "contraindications": [
+        "Heavy bruxism",
+        "Posterior high-stress areas",
+        "Limited tooth structure",
+        "Poor oral hygiene",
+        "Insufficient occlusal clearance",
+        "Long-span bridges"
+      ],
+      "handling_characteristics": [
+        "Laboratory fabricated",
+        "Requires adhesive cementation",
+        "Precise preparation needed",
+        "Color matching critical",
+        "Fragile until cemented",
+        "Requires careful handling"
+      ],
+      "longevity": "10-15 years with proper care",
+      "cost_considerations": "High cost, excellent aesthetics justify expense"
+    },
+    {
+      "id": "zirconia-crown",
+      "name": "Zirconia Crown",
+      "category": "Prosthodontic",
+      "properties": {
+        "strength": "Very High (800-1200 MPa)",
+        "aesthetics": "Good-Excellent",
+        "durability": "15+ years",
+        "biocompatibility": "Excellent",
+        "radiopacity": "High",
+        "fracture_toughness": "Excellent",
+        "wear_resistance": "High"
+      },
+      "indications": [
+        "Posterior crowns",
+        "Bridges",
+        "Implant crowns",
+        "Bruxism patients",
+        "High-stress areas",
+        "Long-span bridges",
+        "Full-mouth rehabilitation"
+      ],
+      "contraindications": [
+        "Thin preparations",
+        "Opposing natural teeth (wear potential)",
+        "Limited aesthetic requirements",
+        "Insufficient clearance",
+        "Need for frequent adjustments"
+      ],
+      "handling_characteristics": [
+        "CAD/CAM fabricated",
+        "Conventional or adhesive cementation",
+        "Minimal preparation needed",
+        "Difficult to adjust chairside",
+        "Requires special burs for adjustment",
+        "Excellent marginal fit"
+      ],
+      "longevity": "15+ years, excellent durability",
+      "cost_considerations": "Moderate-High cost, excellent longevity"
+    },
+    {
+      "id": "titanium-implant",
+      "name": "Titanium Dental Implant",
+      "category": "Implant",
+      "properties": {
+        "strength": "Very High (900+ MPa)",
+        "biocompatibility": "Excellent (osseointegration)",
+        "durability": "20+ years",
+        "corrosion_resistance": "Excellent",
+        "radiopacity": "High",
+        "surface_treatment": "SLA, TiUnite, or similar",
+        "osseointegration_rate": "95-98%"
+      },
+      "indications": [
+        "Single tooth replacement",
+        "Multiple tooth replacement",
+        "Full arch rehabilitation",
+        "Overdenture support",
+        "Ridge preservation",
+        "Immediate placement"
+      ],
+      "contraindications": [
+        "Insufficient bone volume",
+        "Active periodontal disease",
+        "Uncontrolled diabetes",
+        "Heavy smoking",
+        "Bisphosphonate therapy",
+        "Radiation therapy (relative)",
+        "Poor oral hygiene"
+      ],
+      "handling_characteristics": [
+        "Surgical placement required",
+        "Osseointegration period (3-6 months)",
+        "Sterile technique essential",
+        "Precise positioning critical",
+        "Primary stability important",
+        "Atraumatic surgical technique"
+      ],
+      "longevity": "20+ years with proper maintenance",
+      "cost_considerations": "High initial cost, excellent long-term value"
+    },
+    {
+      "id": "lithium-disilicate",
+      "name": "Lithium Disilicate (e.max)",
+      "category": "Prosthodontic",
+      "properties": {
+        "strength": "High (400-500 MPa)",
+        "aesthetics": "Excellent",
+        "durability": "10-15 years",
+        "biocompatibility": "Excellent",
+        "translucency": "Excellent",
+        "etchability": "Excellent",
+        "thermal_shock_resistance": "Good"
+      },
+      "indications": [
+        "Anterior and posterior crowns",
+        "Veneers",
+        "Inlays/onlays",
+        "Short-span bridges (3 units max)",
+        "Implant crowns",
+        "Aesthetic restorations"
+      ],
+      "contraindications": [
+        "Heavy bruxism",
+        "Long-span bridges",
+        "Insufficient occlusal clearance",
+        "Poor oral hygiene",
+        "Parafunctional habits"
+      ],
+      "handling_characteristics": [
+        "CAD/CAM or pressed fabrication",
+        "Requires adhesive cementation",
+        "HF etching and silanization",
+        "Excellent marginal adaptation",
+        "Chairside adjustments possible",
+        "Requires careful cementation protocol"
+      ],
+      "longevity": "10-15 years with proper care",
+      "cost_considerations": "High cost, excellent aesthetics and strength"
+    },
+    {
+      "id": "resin-modified-gic",
+      "name": "Resin-Modified Glass Ionomer (RMGIC)",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Moderate (80-180 MPa)",
+        "aesthetics": "Good",
+        "durability": "5-8 years",
+        "biocompatibility": "Excellent",
+        "fluoride_release": "Yes",
+        "command_set": "Light and chemical cure",
+        "wear_resistance": "Good"
+      },
+      "indications": [
+        "Class V restorations",
+        "Root caries",
+        "Core buildups",
+        "Pediatric restorations",
+        "Geriatric dentistry",
+        "Sandwich technique",
+        "Cervical restorations"
+      ],
+      "contraindications": [
+        "High occlusal stress areas",
+        "Large posterior restorations",
+        "Aesthetic critical areas",
+        "Patients with resin allergies"
+      ],
+      "handling_characteristics": [
+        "Dual cure mechanism",
+        "Less moisture sensitive than GIC",
+        "Self-adhesive properties",
+        "Easy manipulation",
+        "Immediate finishing possible",
+        "Good working time"
+      ],
+      "longevity": "5-8 years in appropriate applications",
+      "cost_considerations": "Moderate cost, good value for specific indications"
+    },
+    {
+      "id": "gold-alloy",
+      "name": "Gold Alloy Crown",
+      "category": "Prosthodontic",
+      "properties": {
+        "strength": "High (300-400 MPa)",
+        "aesthetics": "Poor (metallic)",
+        "durability": "20+ years",
+        "biocompatibility": "Excellent",
+        "wear_compatibility": "Excellent",
+        "corrosion_resistance": "Excellent",
+        "marginal_adaptation": "Excellent"
+      },
+      "indications": [
+        "Posterior crowns",
+        "Bridges",
+        "Inlays/onlays",
+        "Patients with parafunctional habits",
+        "Opposing natural teeth",
+        "Long-term durability required"
+      ],
+      "contraindications": [
+        "Aesthetic zones",
+        "Metal allergies (rare)",
+        "Cost considerations",
+        "Patient preference for tooth-colored"
+      ],
+      "handling_characteristics": [
+        "Cast or milled fabrication",
+        "Conventional cementation",
+        "Excellent marginal fit",
+        "Easy to adjust and polish",
+        "Burnishable margins",
+        "Minimal preparation required"
+      ],
+      "longevity": "20+ years, excellent track record",
+      "cost_considerations": "Very high cost due to gold content"
+    },
+    {
+      "id": "porcelain-fused-metal",
+      "name": "Porcelain-Fused-to-Metal (PFM)",
+      "category": "Prosthodontic",
+      "properties": {
+        "strength": "High (metal substructure)",
+        "aesthetics": "Good",
+        "durability": "15-20 years",
+        "biocompatibility": "Good",
+        "thermal_expansion": "Matched metal-ceramic",
+        "fracture_resistance": "Good",
+        "marginal_adaptation": "Good"
+      },
+      "indications": [
+        "Posterior crowns",
+        "Long-span bridges",
+        "High-stress areas",
+        "Implant crowns",
+        "Full-mouth rehabilitation",
+        "Bruxism patients"
+      ],
+      "contraindications": [
+        "High aesthetic demands",
+        "Metal allergies",
+        "Thin gingival biotype",
+        "Anterior areas (relative)"
+      ],
+      "handling_characteristics": [
+        "Laboratory fabricated",
+        "Conventional cementation",
+        "Metal coping provides strength",
+        "Porcelain provides aesthetics",
+        "Adjustments require special care",
+        "Risk of porcelain fracture"
+      ],
+      "longevity": "15-20 years with proper care",
+      "cost_considerations": "Moderate cost, good strength-aesthetic balance"
+    },
+    {
+      "id": "flowable-composite",
+      "name": "Flowable Composite",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Low-Moderate (100-200 MPa)",
+        "aesthetics": "Excellent",
+        "durability": "3-7 years",
+        "biocompatibility": "Good",
+        "flow_characteristics": "Excellent",
+        "adaptation": "Excellent",
+        "wear_resistance": "Moderate"
+      },
+      "indications": [
+        "Class V restorations",
+        "Small Class I restorations",
+        "Liner under composite",
+        "Pit and fissure sealants",
+        "Repair of composite restorations",
+        "Cervical lesions"
+      ],
+      "contraindications": [
+        "High-stress areas",
+        "Large restorations",
+        "Load-bearing areas",
+        "Occlusal surfaces (primary material)"
+      ],
+      "handling_characteristics": [
+        "Light-cured",
+        "Self-leveling",
+        "Easy application",
+        "Excellent adaptation to cavity walls",
+        "Minimal finishing required",
+        "Good handling properties"
+      ],
+      "longevity": "3-7 years depending on location",
+      "cost_considerations": "Moderate cost, easy application"
+    },
+    {
+      "id": "bulk-fill-composite",
+      "name": "Bulk-Fill Composite",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Moderate (200-300 MPa)",
+        "aesthetics": "Good",
+        "durability": "5-10 years",
+        "biocompatibility": "Good",
+        "depth_of_cure": "4-5mm increments",
+        "polymerization_shrinkage": "Reduced",
+        "translucency": "Increased"
+      },
+      "indications": [
+        "Posterior restorations",
+        "Large cavities",
+        "Time-efficient restorations",
+        "Deep preparations",
+        "Pediatric dentistry",
+        "Geriatric dentistry"
+      ],
+      "contraindications": [
+        "High aesthetic demands",
+        "Anterior restorations (primary)",
+        "Shallow preparations",
+        "Patients requiring precise shade matching"
+      ],
+      "handling_characteristics": [
+        "Light-cured",
+        "Single increment placement",
+        "Reduced technique sensitivity",
+        "Fast placement",
+        "Good adaptation",
+        "Requires capping layer for aesthetics"
+      ],
+      "longevity": "5-10 years with proper technique",
+      "cost_considerations": "Moderate cost, time-saving benefits"
+    },
+    {
+      "id": "ceramic-implant",
+      "name": "Zirconia Implant",
+      "category": "Implant",
+      "properties": {
+        "strength": "High (900-1200 MPa)",
+        "biocompatibility": "Excellent",
+        "durability": "10-15 years (newer material)",
+        "aesthetics": "Excellent (tooth-colored)",
+        "osseointegration": "Good",
+        "corrosion_resistance": "Excellent",
+        "radiopacity": "High"
+      },
+      "indications": [
+        "Anterior single tooth replacement",
+        "Metal allergies/sensitivities",
+        "Thin gingival biotype",
+        "High aesthetic demands",
+        "Patients preferring metal-free",
+        "Immediate placement protocols"
+      ],
+      "contraindications": [
+        "Heavy bruxism",
+        "Insufficient bone volume",
+        "Active periodontal disease",
+        "Poor oral hygiene",
+        "High-stress posterior areas",
+        "Need for angled abutments"
+      ],
+      "handling_characteristics": [
+        "One-piece or two-piece design",
+        "Surgical placement required",
+        "Osseointegration period required",
+        "Limited prosthetic options",
+        "Careful surgical technique needed",
+        "Fracture risk if overloaded"
+      ],
+      "longevity": "10-15 years (limited long-term data)",
+      "cost_considerations": "High cost, aesthetic benefits"
+    },
+    {
+      "id": "compomer",
+      "name": "Compomer (Polyacid-Modified Composite)",
+      "category": "Restorative",
+      "properties": {
+        "strength": "Moderate (150-250 MPa)",
+        "aesthetics": "Good",
+        "durability": "4-8 years",
+        "biocompatibility": "Good",
+        "fluoride_release": "Limited",
+        "handling": "Easy",
+        "wear_resistance": "Good"
+      },
+      "indications": [
+        "Class V restorations",
+        "Pediatric restorations",
+        "Root caries",
+        "Small posterior restorations",
+        "Cervical lesions",
+        "Core buildups (small)"
+      ],
+      "contraindications": [
+        "Large posterior restorations",
+        "High-stress areas",
+        "Aesthetic critical zones",
+        "Patients with composite allergies"
+      ],
+      "handling_characteristics": [
+        "Light-cured",
+        "Easy manipulation",
+        "Good adaptation",
+        "Minimal finishing required",
+        "Self-adhesive properties",
+        "Forgiving technique"
+      ],
+      "longevity": "4-8 years in appropriate applications",
+      "cost_considerations": "Moderate cost, good handling properties"
+    }
+  ],
+  "categories": [
+    "Restorative",
+    "Prosthodontic",
+    "Implant",
+    "Endodontic",
+    "Periodontal",
+    "Orthodontic"
+  ],
+  "properties": [
+    "Strength",
+    "Aesthetics",
+    "Durability",
+    "Biocompatibility",
+    "Cost",
+    "Handling",
+    "Fluoride Release",
+    "Wear Resistance",
+    "Thermal Properties"
+  ]
+}

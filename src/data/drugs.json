@@ -1,0 +1,290 @@
+{
+  "antibiotics": [
+    {
+      "id": "penicillin-vk",
+      "name": "Penicillin VK",
+      "class": "Penicillins",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "Bacterial endocarditis (high-risk cardiac patients)",
+          "evidence_level": "AHA Class I, LOE B"
+        },
+        {
+          "type": "Treatment",
+          "description": "Mild odontogenic infections (e.g., periapical abscess)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500 mg",
+          "regimen": "Q6H × 7–10 days",
+          "max_daily": "2 g"
+        },
+        "pediatrics": {
+          "dose": "25–50 mg/kg/day",
+          "regimen": "Divided Q6H",
+          "max_daily": "2 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Empty stomach (1 hour before or 2 hours after meals)",
+        "bioavailability": "60-70%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >50 mL/min",
+          "adjustment": "None",
+          "dose_amount": "500 mg Q6H"
+        },
+        {
+          "condition": "CrCl 10–50 mL/min",
+          "adjustment": "50–75% of dose",
+          "dose_amount": "250–375 mg Q6H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "25–50% of dose",
+          "dose_amount": "125–250 mg Q6H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "None required",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "Monitor for toxicity",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "contraindications": [
+        "Penicillin allergy",
+        "Infectious mononucleosis (rash risk)",
+        "History of penicillin-induced anaphylaxis"
+      ],
+      "side_effects": {
+        "common": [
+          "Nausea (3-5%)",
+          "Diarrhea (2-4%)",
+          "Vaginal candidiasis (1-3%)"
+        ],
+        "serious": [
+          "Anaphylaxis (1-4/10,000)",
+          "C. difficile colitis (0.1-1%)",
+          "Hemolytic anemia (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Probenecid",
+          "effect": "↑ Penicillin levels (2-4 fold)",
+          "management": "Avoid concurrent use"
+        },
+        {
+          "drug": "Oral contraceptives",
+          "effect": "↓ Efficacy (pregnancy risk)",
+          "management": "Use backup contraception"
+        }
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "name": "Amoxicillin",
+      "class": "Penicillins",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "First-line for endocarditis (AHA 2021)",
+          "evidence_level": "AHA Class I, LOE A"
+        },
+        {
+          "type": "Treatment",
+          "description": "Mild-moderate infections (e.g., cellulitis, periodontitis)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "500 mg",
+          "regimen": "Q8H × 7–10 days",
+          "max_daily": "3 g"
+        },
+        "pediatrics": {
+          "dose": "25–50 mg/kg/day",
+          "regimen": "Divided Q8H",
+          "max_daily": "3 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Can be taken with or without food",
+        "bioavailability": "74-92%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "500 mg Q8H"
+        },
+        {
+          "condition": "CrCl 10–30 mL/min",
+          "adjustment": "Extended interval",
+          "dose_amount": "250 mg Q12H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "Extended interval",
+          "dose_amount": "250 mg Q24H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-C",
+          "adjustment": "None required",
+          "dose_amount": "Standard dose"
+        }
+      ],
+      "contraindications": [
+        "Penicillin allergy",
+        "History of amoxicillin-induced anaphylaxis"
+      ],
+      "side_effects": {
+        "common": [
+          "Rash (5-10%)",
+          "Diarrhea (3-8%)",
+          "Nausea (2-4%)"
+        ],
+        "serious": [
+          "Anaphylaxis (1-4/10,000)",
+          "Stevens-Johnson syndrome (rare)",
+          "C. difficile colitis (0.1-1%)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Methotrexate",
+          "effect": "↑ Methotrexate toxicity",
+          "management": "Monitor CBC, creatinine, avoid high-dose methotrexate"
+        },
+        {
+          "drug": "Warfarin",
+          "effect": "↑ INR (bleeding risk)",
+          "management": "Monitor INR weekly, adjust warfarin dose"
+        }
+      ]
+    },
+    {
+      "id": "clindamycin",
+      "name": "Clindamycin",
+      "class": "Lincosamides",
+      "indications": [
+        {
+          "type": "Prophylaxis",
+          "description": "Penicillin-allergic patients (endocarditis)",
+          "evidence_level": "AHA Class I, LOE B"
+        },
+        {
+          "type": "Treatment",
+          "description": "Anaerobic infections (e.g., periodontitis)",
+          "evidence_level": "ADA Clinical Practice Guideline"
+        }
+      ],
+      "dosage": {
+        "adults": {
+          "dose": "150–300 mg",
+          "regimen": "Q6H × 7–10 days",
+          "max_daily": "1.8 g"
+        },
+        "pediatrics": {
+          "dose": "10–25 mg/kg/day",
+          "regimen": "Divided Q6–8H",
+          "max_daily": "1.8 g"
+        }
+      },
+      "administration": {
+        "route": "Oral",
+        "instructions": "Take with full glass of water to avoid esophageal irritation",
+        "bioavailability": "90%"
+      },
+      "renal_adjustment": [
+        {
+          "condition": "CrCl >30 mL/min",
+          "adjustment": "None",
+          "dose_amount": "150–300 mg Q6H"
+        },
+        {
+          "condition": "CrCl 10–30 mL/min",
+          "adjustment": "50% of dose",
+          "dose_amount": "75–150 mg Q6H"
+        },
+        {
+          "condition": "CrCl <10 mL/min",
+          "adjustment": "25–50% of dose",
+          "dose_amount": "75–150 mg Q12H"
+        }
+      ],
+      "hepatic_adjustment": [
+        {
+          "condition": "Child-Pugh A-B",
+          "adjustment": "None",
+          "dose_amount": "Standard dose"
+        },
+        {
+          "condition": "Child-Pugh C",
+          "adjustment": "50% reduction",
+          "dose_amount": "75–150 mg Q6H"
+        }
+      ],
+      "contraindications": [
+        "Lincosamide allergy",
+        "Regional enteritis/ulcerative colitis",
+        "History of C. difficile colitis"
+      ],
+      "side_effects": {
+        "common": [
+          "Diarrhea (10-20%)",
+          "Nausea (2-4%)",
+          "Rash (1-3%)"
+        ],
+        "serious": [
+          "C. difficile colitis (up to 10% of users)",
+          "Anaphylaxis (rare)",
+          "Hepatotoxicity (rare)"
+        ]
+      },
+      "interactions": [
+        {
+          "drug": "Neuromuscular blockers",
+          "effect": "↑ Paralysis risk",
+          "management": "Avoid concurrent use"
+        },
+        {
+          "drug": "Erythromycin",
+          "effect": "Antagonistic",
+          "management": "Avoid concurrent use"
+        }
+      ]
+    }
+  ],
+  "clinical_pearls": {
+    "renal_dosing_formula": "CrCl (mL/min) = [(140 - age) × weight (kg)] / [72 × SCr (mg/dL)] (× 0.85 for females)",
+    "hepatic_dosing": {
+      "child_pugh_score": {
+        "class_a": "5–6 points (mild)",
+        "class_b": "7–9 points (moderate)",
+        "class_c": "10–15 points (severe)"
+      }
+    },
+    "empiric_therapy_recommendations": {
+      "mild_infection": "Amoxicillin 500 mg TID",
+      "moderate_infection": "Amoxicillin-clavulanate 875/125 mg BID",
+      "severe_infection": "Clindamycin 300 mg QID + Ciprofloxacin 500 mg BID",
+      "penicillin_allergy": "Clindamycin 300 mg QID"
+    }
+  }
+}

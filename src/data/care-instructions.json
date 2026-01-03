@@ -1,0 +1,1786 @@
+{
+  "dental-caries": {
+    "preOperative": [
+      {
+        "id": "dietary-prep",
+        "title": "Dietary Preparation",
+        "description": "Avoid very hot or cold foods/drinks immediately before appointment if teeth are sensitive.",
+        "priority": "low"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "bite-carefully",
+          "title": "Avoid Chewing on Restoration",
+          "description": "Do not chew hard foods or use the treated tooth for chewing until anesthesia wears off to avoid biting your lip or cheek.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "avoid-hard-foods",
+          "title": "Soft Diet",
+          "description": "Stick to soft foods and avoid chewing on the treated tooth to allow the restoration to set properly.",
+          "priority": "medium"
+        },
+        {
+          "id": "pain-monitoring",
+          "title": "Monitor for Pain",
+          "description": "Some sensitivity is normal. Over-the-counter pain relievers like ibuprofen can help if needed.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "regular-brushing",
+          "title": "Resume Normal Oral Hygiene",
+          "description": "Continue regular brushing and flossing, but avoid vigorous brushing around the restoration site.",
+          "priority": "medium"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "regular-checkups",
+          "title": "Regular Dental Visits",
+          "description": "Schedule routine check-ups every 6 months to monitor the restoration and prevent recurrent caries.",
+          "priority": "medium"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Soft foods like yogurt, applesauce, and soups during the first day",
+        "A balanced diet with adequate calcium and vitamin D for tooth remineralization"
+      ],
+      "foodsToAvoid": [
+        "Hard, crunchy foods like nuts and hard candies that could damage the restoration",
+        "Extremely hot or cold foods if sensitivity persists",
+        "Sugary foods and drinks to prevent recurrent caries"
+      ],
+      "hydrationGuidelines": [
+        "Maintain normal hydration; drink water regularly",
+        "Avoid sugary beverages"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "gentle-brushing",
+        "title": "Gentle Brushing",
+        "description": "Brush teeth gently twice daily with a soft-bristled toothbrush. Use fluoride toothpaste.",
+        "priority": "high"
+      },
+      {
+        "id": "flossing",
+        "title": "Daily Flossing",
+        "description": "Floss daily to remove plaque between teeth and around restorations.",
+        "priority": "high"
+      },
+      {
+        "id": "mouthwash",
+        "title": "Antimicrobial Mouthwash",
+        "description": "Use chlorhexidine mouthwash for 1 week if prescribed to reduce bacterial load.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "over-the-counter",
+        "title": "Over-the-Counter Pain Relief",
+        "description": "Take ibuprofen (400-600mg every 6-8 hours) or acetaminophen as needed for discomfort.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "severe-pain",
+        "title": "Severe or Persistent Pain",
+        "description": "Seek immediate care if pain is severe, throbbing, or doesn't improve with medication.",
+        "priority": "high"
+      },
+      {
+        "id": "swelling-infection",
+        "title": "Signs of Infection",
+        "description": "Contact dentist if swelling, fever, or pus develops around the treated tooth.",
+        "priority": "high"
+      },
+      {
+        "id": "restoration-damage",
+        "title": "Restoration Damage",
+        "description": "If the filling chips or falls out, contact your dentist immediately.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "gingivitis": {
+    "preOperative": [
+      {
+        "id": "oral-hygiene",
+        "title": "Improve Oral Hygiene",
+        "description": "Brush and floss thoroughly before your appointment to maximize treatment effectiveness.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "avoid-irritants",
+          "title": "Avoid Irritants",
+          "description": "Avoid smoking, alcohol, and spicy foods that may irritate healing gums.",
+          "priority": "medium"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "gentle-cleaning",
+          "title": "Gentle Oral Care",
+          "description": "Use soft toothbrush and avoid vigorous brushing to prevent further irritation.",
+          "priority": "high"
+        },
+        {
+          "id": "cold-compress",
+          "title": "Cold Compress",
+          "description": "Apply cold compress if swelling occurs to reduce inflammation.",
+          "priority": "low"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "continue-hygiene",
+          "title": "Maintain Hygiene Routine",
+          "description": "Continue gentle brushing and flossing as instructed.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "regular-cleanings",
+          "title": "Professional Cleanings",
+          "description": "Schedule professional cleanings every 3-6 months to prevent recurrence.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Anti-inflammatory foods like leafy greens, fatty fish, and berries",
+        "Crunchy vegetables like carrots and celery for natural cleaning"
+      ],
+      "foodsToAvoid": [
+        "Sugary foods and drinks that promote bacterial growth",
+        "Acidic foods and beverages that can irritate gums",
+        "Sticky foods that adhere to teeth and gums"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water to maintain oral moisture",
+        "Green tea has antioxidant properties beneficial for gum health"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "bass-brushing",
+        "title": "Modified Bass Brushing Technique",
+        "description": "Brush teeth using the Bass technique: place bristles at 45-degree angle to gums, gently vibrate, then sweep away from gums.",
+        "priority": "high"
+      },
+      {
+        "id": "interdental-cleaning",
+        "title": "Interdental Cleaning",
+        "description": "Use interdental brushes or floss daily to clean between teeth where gingivitis often starts.",
+        "priority": "high"
+      },
+      {
+        "id": "antimicrobial-rinse",
+        "title": "Antimicrobial Mouth Rinse",
+        "description": "Use chlorhexidine gluconate 0.12% rinse twice daily for 2 weeks, then as directed.",
+        "priority": "high"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "anti-inflammatory",
+        "title": "Anti-Inflammatory Medication",
+        "description": "NSAIDs like ibuprofen can help reduce inflammation and discomfort if needed.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "increased-bleeding",
+        "title": "Increased Bleeding",
+        "description": "If bleeding persists or worsens after treatment, contact your dentist.",
+        "priority": "medium"
+      },
+      {
+        "id": "severe-swelling",
+        "title": "Severe Swelling or Pain",
+        "description": "Seek immediate care if swelling increases or severe pain develops.",
+        "priority": "high"
+      },
+      {
+        "id": "systemic-symptoms",
+        "title": "Systemic Symptoms",
+        "description": "Fever, malaise, or spreading infection requires urgent medical attention.",
+        "priority": "high"
+      }
+    ]
+  },
+  "pulpitis": {
+    "preOperative": [
+      {
+        "id": "pain-management",
+        "title": "Pre-Appointment Pain Relief",
+        "description": "Take prescribed analgesics before your appointment if experiencing severe pain.",
+        "priority": "medium"
+      },
+      {
+        "id": "avoid-triggers",
+        "title": "Avoid Pain Triggers",
+        "description": "Avoid hot/cold foods and drinks that may trigger pain before treatment.",
+        "priority": "low"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "anesthesia-wear-off",
+          "title": "Anesthesia Care",
+          "description": "Avoid eating until anesthesia wears off to prevent lip/tongue biting. Soft foods only.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "pain-monitoring",
+          "title": "Monitor Pain Levels",
+          "description": "Pain should decrease significantly. Take prescribed pain medication as directed.",
+          "priority": "medium"
+        },
+        {
+          "id": "elevate-head",
+          "title": "Head Elevation",
+          "description": "Keep head elevated while sleeping to reduce swelling.",
+          "priority": "low"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "avoid-hard-foods",
+          "title": "Soft Diet",
+          "description": "Continue soft foods and avoid chewing on the treated tooth until permanent restoration.",
+          "priority": "medium"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "permanent-restoration",
+          "title": "Complete Treatment",
+          "description": "Return for permanent crown or filling as scheduled to protect the tooth.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Soft, cool foods like yogurt and smoothies",
+        "Room temperature foods to avoid thermal sensitivity"
+      ],
+      "foodsToAvoid": [
+        "Hot or cold foods/drinks that may cause sensitivity",
+        "Hard or crunchy foods that could damage temporary restoration",
+        "Sugary foods that promote bacterial growth"
+      ],
+      "hydrationGuidelines": [
+        "Drink water at room temperature",
+        "Avoid very hot beverages"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "gentle-brushing",
+        "title": "Gentle Brushing",
+        "description": "Brush gently around treated tooth. Use soft toothbrush.",
+        "priority": "high"
+      },
+      {
+        "id": "saltwater-rinse",
+        "title": "Saltwater Rinses",
+        "description": "Rinse with warm saltwater (1/2 tsp salt in 8oz water) 3-4 times daily to reduce inflammation.",
+        "priority": "medium"
+      },
+      {
+        "id": "avoid-tooth",
+        "title": "Protect Treated Tooth",
+        "description": "Avoid flossing treated tooth until permanent restoration is placed.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "prescribed-medication",
+        "title": "Prescribed Pain Medication",
+        "description": "Take pain medication as prescribed. Ibuprofen is often preferred for its anti-inflammatory effects.",
+        "priority": "high"
+      },
+      {
+        "id": "cold-application",
+        "title": "Cold Therapy",
+        "description": "Apply cold compress externally for 15-20 minutes to reduce pain and swelling.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "severe-pain",
+        "title": "Severe or Worsening Pain",
+        "description": "Contact dentist immediately if pain worsens or becomes unbearable.",
+        "priority": "high"
+      },
+      {
+        "id": "swelling-infection",
+        "title": "Signs of Infection",
+        "description": "Swelling, fever, or pus indicate infection requiring urgent care.",
+        "priority": "high"
+      },
+      {
+        "id": "temporary-falls-out",
+        "title": "Temporary Restoration Failure",
+        "description": "If temporary filling falls out, contact dentist to prevent contamination.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "dental-abscess": {
+    "preOperative": [
+      {
+        "id": "antibiotic-start",
+        "title": "Antibiotic Therapy",
+        "description": "Begin prescribed antibiotics as directed, usually 1 hour before procedure if applicable.",
+        "priority": "high"
+      },
+      {
+        "id": "pain-control",
+        "title": "Pre-Procedure Pain Management",
+        "description": "Take pain medication 30-60 minutes before appointment.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "compression",
+          "title": "Pressure Application",
+          "description": "Apply firm pressure with gauze for 30-45 minutes to control bleeding.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "ice-application",
+          "title": "Ice Therapy",
+          "description": "Apply ice packs externally for 15 minutes on, 15 minutes off to reduce swelling.",
+          "priority": "high"
+        },
+        {
+          "id": "rest",
+          "title": "Rest and Elevation",
+          "description": "Rest with head elevated to minimize swelling.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft foods and avoid chewing near extraction site.",
+          "priority": "medium"
+        },
+        {
+          "id": "continue-antibiotics",
+          "title": "Complete Antibiotic Course",
+          "description": "Finish all prescribed antibiotics even if symptoms improve.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "follow-up",
+          "title": "Follow-Up Care",
+          "description": "Attend all follow-up appointments to monitor healing and complete definitive treatment.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Cold, soft foods like ice cream or yogurt to soothe the area",
+        "Nutritious soups and protein shakes for adequate nutrition"
+      ],
+      "foodsToAvoid": [
+        "Hot, spicy, or acidic foods that can irritate healing tissues",
+        "Hard, crunchy foods that may dislodge blood clot",
+        "Alcohol and carbonated drinks"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water but avoid using straws which can dislodge blood clot",
+        "Stay hydrated to support healing"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "gentle-rinsing",
+        "title": "Gentle Rinsing",
+        "description": "Begin gentle saltwater rinses 24 hours after procedure (1/2 tsp salt in warm water).",
+        "priority": "high"
+      },
+      {
+        "id": "avoid-disturbing",
+        "title": "Protect Healing Site",
+        "description": "Avoid brushing extraction site for 24 hours, then brush gently.",
+        "priority": "high"
+      },
+      {
+        "id": "chlorhexidine",
+        "title": "Antiseptic Rinse",
+        "description": "Use chlorhexidine rinse twice daily if prescribed to prevent infection.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "pain-medication",
+        "title": "Pain Medication",
+        "description": "Take prescribed pain medication as directed. Combine acetaminophen and ibuprofen if recommended.",
+        "priority": "high"
+      },
+      {
+        "id": "ice-packs",
+        "title": "Ice Packs",
+        "description": "Continue ice application for first 24 hours to manage swelling and pain.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "dry-socket",
+        "title": "Dry Socket",
+        "description": "Severe pain 2-3 days after extraction may indicate dry socket; contact dentist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "persistent-bleeding",
+        "title": "Persistent Bleeding",
+        "description": "Bleeding that doesn't stop after 24 hours requires immediate attention.",
+        "priority": "high"
+      },
+      {
+        "id": "infection-signs",
+        "title": "Signs of Infection",
+        "description": "Increasing swelling, fever, severe pain, or foul taste/smell indicate spreading infection.",
+        "priority": "high"
+      },
+      {
+        "id": "allergic-reaction",
+        "title": "Allergic Reaction",
+        "description": "Rash, itching, swelling of face/tongue, or difficulty breathing require emergency care.",
+        "priority": "high"
+      }
+    ]
+  },
+  "tooth-extraction": {
+    "preOperative": [
+      {
+        "id": "pre-medication",
+        "title": "Pre-Procedure Medication",
+        "description": "Take prescribed antibiotics or sedatives as directed before the appointment.",
+        "priority": "high"
+      },
+      {
+        "id": "arrange-transport",
+        "title": "Transportation Arrangements",
+        "description": "Arrange for someone to drive you home if sedation is used.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "bite-gauze",
+          "title": "Bite on Gauze",
+          "description": "Bite firmly on gauze for 30-45 minutes to control bleeding. Change as needed.",
+          "priority": "high"
+        },
+        {
+          "id": "rest",
+          "title": "Immediate Rest",
+          "description": "Rest quietly for the remainder of the day.",
+          "priority": "medium"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "ice-therapy",
+          "title": "Ice Application",
+          "description": "Apply ice packs to face for 15 minutes on, 15 minutes off to reduce swelling.",
+          "priority": "high"
+        },
+        {
+          "id": "elevate-head",
+          "title": "Head Elevation",
+          "description": "Keep head elevated above heart level, even while sleeping, for 2-3 days.",
+          "priority": "high"
+        },
+        {
+          "id": "no-rinse",
+          "title": "No Rinsing",
+          "description": "Do not rinse mouth, drink through straw, or smoke for 24 hours.",
+          "priority": "high"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft, cool foods. Avoid hot foods and alcohol.",
+          "priority": "medium"
+        },
+        {
+          "id": "gentle-rinsing",
+          "title": "Saltwater Rinses",
+          "description": "Begin gentle saltwater rinses after 24 hours, 3-4 times daily.",
+          "priority": "medium"
+        },
+        {
+          "id": "activity-restriction",
+          "title": "Activity Restrictions",
+          "description": "Avoid strenuous exercise, bending, or heavy lifting for 3-4 days.",
+          "priority": "medium"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "socket-healing",
+          "title": "Monitor Healing",
+          "description": "Socket should fill with granulation tissue. Return for suture removal if applicable.",
+          "priority": "medium"
+        },
+        {
+          "id": "replacement-planning",
+          "title": "Tooth Replacement",
+          "description": "Discuss tooth replacement options (implant, bridge, denture) at follow-up.",
+          "priority": "low"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Cold, soft foods like yogurt, ice cream, applesauce, and smoothies",
+        "Protein-rich foods like eggs, cheese, and nut butters",
+        "Soups and broths at room temperature"
+      ],
+      "foodsToAvoid": [
+        "Hot foods and beverages",
+        "Spicy, acidic, or rough foods that can irritate the socket",
+        "Small grains, seeds, or rice that can get stuck in socket",
+        "Alcohol and carbonated drinks"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water at room temperature",
+        "Avoid drinking through straws for first 24 hours to prevent dry socket"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "avoid-site",
+        "title": "Protect Extraction Site",
+        "description": "Do not brush extraction site for 24 hours. Brush other teeth normally.",
+        "priority": "high"
+      },
+      {
+        "id": "saltwater-rinse",
+        "title": "Saltwater Mouth Rinse",
+        "description": "After 24 hours, rinse gently with warm saltwater 3-4 times daily.",
+        "priority": "high"
+      },
+      {
+        "id": "antiseptic-rinse",
+        "title": "Antiseptic Rinse",
+        "description": "Use prescribed chlorhexidine rinse twice daily if antibiotics are given.",
+        "priority": "medium"
+      },
+      {
+        "id": "no-smoking",
+        "title": "No Smoking",
+        "description": "Do not smoke for at least 48 hours as it impairs healing.",
+        "priority": "high"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "prescribed-analgesics",
+        "title": "Prescribed Pain Medication",
+        "description": "Take pain medication as prescribed. Start before pain becomes severe.",
+        "priority": "high"
+      },
+      {
+        "id": "ibuprofen-alternating",
+        "title": "Alternating Pain Relief",
+        "description": "Alternate ibuprofen and acetaminophen if recommended by dentist.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "dry-socket",
+        "title": "Dry Socket",
+        "description": "Severe pain 2-4 days after extraction, bad taste/smell. Contact dentist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "excessive-bleeding",
+        "title": "Excessive Bleeding",
+        "description": "Bleeding that doesn't stop with pressure. Seek immediate care.",
+        "priority": "high"
+      },
+      {
+        "id": "signs-infection",
+        "title": "Infection Signs",
+        "description": "Fever, increasing swelling, severe pain, pus, or foul odor require urgent attention.",
+        "priority": "high"
+      },
+      {
+        "id": "numbness-persistence",
+        "title": "Persistent Numbness",
+        "description": "If numbness persists beyond expected time, contact dentist.",
+        "priority": "medium"
+      },
+      {
+        "id": "allergic-reaction",
+        "title": "Allergic Reaction",
+        "description": "Rash, hives, swelling, or difficulty breathing require emergency care.",
+        "priority": "high"
+      }
+    ]
+  },
+  "root-canal-treatment": {
+    "preOperative": [
+      {
+        "id": "pre-medication",
+        "title": "Pre-Procedure Medications",
+        "description": "Take prescribed antibiotics if infection is present, and pain medication 30-60 minutes before appointment.",
+        "priority": "high"
+      },
+      {
+        "id": "eat-before",
+        "title": "Eat Before Appointment",
+        "description": "Eat a light meal before the appointment, especially if sedation is planned.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "anesthesia-care",
+          "title": "Anesthesia Precautions",
+          "description": "Avoid eating until numbness wears off. Start with soft foods.",
+          "priority": "high"
+        },
+        {
+          "id": "temporary-restoration",
+          "title": "Temporary Restoration Care",
+          "description": "Temporary filling may feel different. Avoid chewing hard foods on it.",
+          "priority": "medium"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "pain-monitoring",
+          "title": "Pain Assessment",
+          "description": "Some discomfort is normal. Take pain medication as prescribed.",
+          "priority": "high"
+        },
+        {
+          "id": "elevate-head",
+          "title": "Head Elevation",
+          "description": "Sleep with head elevated to reduce swelling.",
+          "priority": "low"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "avoid-hard-foods",
+          "title": "Soft Diet",
+          "description": "Continue soft foods. Avoid chewing on treated tooth until permanent restoration.",
+          "priority": "medium"
+        },
+        {
+          "id": "hygiene-maintenance",
+          "title": "Oral Hygiene",
+          "description": "Maintain excellent oral hygiene to prevent reinfection.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "permanent-crown",
+          "title": "Permanent Restoration",
+          "description": "Return for crown placement within 2-4 weeks to protect the tooth.",
+          "priority": "high"
+        },
+        {
+          "id": "regular-checkups",
+          "title": "Regular Monitoring",
+          "description": "Annual check-ups to monitor endodontic success.",
+          "priority": "medium"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Soft foods at comfortable temperatures",
+        "Nutritious meals to support healing",
+        "Cold foods if swelling occurs"
+      ],
+      "foodsToAvoid": [
+        "Hard, crunchy, or sticky foods that could damage temporary restoration",
+        "Very hot or cold foods if sensitivity persists",
+        "Sugary foods that promote bacterial growth"
+      ],
+      "hydrationGuidelines": [
+        "Maintain adequate hydration",
+        "Drink water regularly"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "gentle-brushing",
+        "title": "Gentle Brushing",
+        "description": "Brush gently around treated tooth. Use soft toothbrush.",
+        "priority": "high"
+      },
+      {
+        "id": "flossing-care",
+        "title": "Careful Flossing",
+        "description": "Floss carefully around treated tooth. Avoid vigorous flossing.",
+        "priority": "medium"
+      },
+      {
+        "id": "antimicrobial-rinse",
+        "title": "Antimicrobial Rinse",
+        "description": "Use chlorhexidine rinse twice daily for 1 week if prescribed.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "scheduled-medication",
+        "title": "Scheduled Pain Relief",
+        "description": "Take pain medication on a schedule for first 24-48 hours, then as needed.",
+        "priority": "high"
+      },
+      {
+        "id": "anti-inflammatory",
+        "title": "Anti-Inflammatory Medication",
+        "description": "Ibuprofen helps reduce inflammation and pain following root canal.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "severe-pain",
+        "title": "Severe Pain",
+        "description": "Pain that worsens or doesn't improve with medication requires immediate evaluation.",
+        "priority": "high"
+      },
+      {
+        "id": "swelling-infection",
+        "title": "Signs of Infection",
+        "description": "Increasing swelling, fever, or pus indicate failed treatment or infection.",
+        "priority": "high"
+      },
+      {
+        "id": "temporary-damage",
+        "title": "Temporary Restoration Issues",
+        "description": "If temporary filling falls out, contact dentist immediately to prevent contamination.",
+        "priority": "medium"
+      },
+      {
+        "id": "persistent-numbness",
+        "title": "Persistent Numbness",
+        "description": "Numbness lasting more than 24 hours after local anesthesia should be reported.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "periodontal-therapy": {
+    "preOperative": [
+      {
+        "id": "oral-hygiene-baseline",
+        "title": "Baseline Oral Hygiene",
+        "description": "Demonstrate good oral hygiene before starting therapy for optimal results.",
+        "priority": "medium"
+      },
+      {
+        "id": "smoking-cessation",
+        "title": "Smoking Cessation",
+        "description": "Quit smoking at least 1 week before treatment to improve healing.",
+        "priority": "high"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "gentle-care",
+          "title": "Gentle Oral Care",
+          "description": "Avoid vigorous brushing or flossing in treated areas for 24 hours.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "cold-therapy",
+          "title": "Cold Application",
+          "description": "Apply cold compress if swelling occurs to reduce discomfort.",
+          "priority": "low"
+        },
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Choose soft foods that don't irritate healing gums.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "hygiene-routine",
+          "title": "Modified Hygiene Routine",
+          "description": "Use soft toothbrush and gentle techniques. Avoid interdental cleaning in tender areas.",
+          "priority": "high"
+        },
+        {
+          "id": "medication-compliance",
+          "title": "Medication Compliance",
+          "description": "Take all prescribed antibiotics and pain medication as directed.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "maintenance-phase",
+          "title": "Supportive Periodontal Therapy",
+          "description": "Attend regular maintenance appointments every 3-4 months.",
+          "priority": "high"
+        },
+        {
+          "id": "behavior-modification",
+          "title": "Lifestyle Changes",
+          "description": "Maintain excellent oral hygiene and address risk factors like smoking.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Anti-inflammatory foods: fatty fish, nuts, olive oil, colorful vegetables",
+        "Vitamin C-rich foods: citrus fruits, bell peppers, broccoli",
+        "Vitamin D sources: fortified foods, sunlight exposure"
+      ],
+      "foodsToAvoid": [
+        "Sugary foods and drinks that feed harmful bacteria",
+        "Acidic foods that can irritate healing gums",
+        "Hard foods that may traumatize healing tissues"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water to maintain oral health",
+        "Green tea may have beneficial antioxidant properties"
+      ],
+      "supplements": [
+        "Vitamin C (500-1000mg daily) may support gum healing",
+        "Vitamin D if deficient, as determined by blood test"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "modified-bass",
+        "title": "Modified Bass Technique",
+        "description": "Use gentle Bass brushing technique with soft toothbrush, 2 minutes twice daily.",
+        "priority": "high"
+      },
+      {
+        "id": "interdental-cleaning",
+        "title": "Interdental Cleaning",
+        "description": "Use interdental brushes or floss once daily. Start gently if tender.",
+        "priority": "high"
+      },
+      {
+        "id": "antimicrobial-rinse",
+        "title": "Antimicrobial Mouth Rinse",
+        "description": "Use chlorhexidine 0.12% twice daily for 2-4 weeks, then maintenance rinse.",
+        "priority": "high"
+      },
+      {
+        "id": "tongue-cleaning",
+        "title": "Tongue Cleaning",
+        "description": "Clean tongue daily to reduce bacterial load.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "over-counter-pain",
+        "title": "Over-the-Counter Pain Relief",
+        "description": "Use ibuprofen or acetaminophen for discomfort. Take with food.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "increased-bleeding",
+        "title": "Increased Bleeding",
+        "description": "Bleeding that persists beyond 1 week or worsens requires evaluation.",
+        "priority": "medium"
+      },
+      {
+        "id": "severe-pain",
+        "title": "Severe Pain",
+        "description": "Severe or worsening pain may indicate infection or other complications.",
+        "priority": "high"
+      },
+      {
+        "id": "signs-infection",
+        "title": "Signs of Infection",
+        "description": "Fever, swelling, pus, or foul taste/smell require immediate care.",
+        "priority": "high"
+      },
+      {
+        "id": "loose-teeth",
+        "title": "Increasing Tooth Mobility",
+        "description": "If teeth feel looser after treatment, contact dentist promptly.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "dental-implant-placement": {
+    "preOperative": [
+      {
+        "id": "pre-surgical-rinse",
+        "title": "Pre-Surgical Rinse",
+        "description": "Use chlorhexidine rinse twice daily for 1 week before surgery.",
+        "priority": "high"
+      },
+      {
+        "id": "smoking-cessation",
+        "title": "Smoking Cessation",
+        "description": "Stop smoking at least 2 weeks before and after surgery to ensure healing.",
+        "priority": "high"
+      },
+      {
+        "id": "antibiotic-prophylaxis",
+        "title": "Antibiotic Prophylaxis",
+        "description": "Take prescribed antibiotics as directed before surgery.",
+        "priority": "high"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "pressure-control",
+          "title": "Bleeding Control",
+          "description": "Apply firm pressure with gauze for 30-45 minutes. Change as needed.",
+          "priority": "high"
+        },
+        {
+          "id": "ice-therapy",
+          "title": "Immediate Ice Therapy",
+          "description": "Apply ice packs for 15 minutes on, 15 minutes off for first 24 hours.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "rest-elevation",
+          "title": "Rest and Elevation",
+          "description": "Rest with head elevated. Avoid strenuous activity.",
+          "priority": "high"
+        },
+        {
+          "id": "no-rinse",
+          "title": "No Rinsing/Smoking",
+          "description": "Do not rinse vigorously, smoke, or use straws for 24 hours.",
+          "priority": "high"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft, cool foods. Avoid hot foods near surgical site.",
+          "priority": "medium"
+        },
+        {
+          "id": "gentle-rinsing",
+          "title": "Gentle Oral Care",
+          "description": "Begin gentle saltwater rinses after 24 hours, 3-4 times daily.",
+          "priority": "high"
+        },
+        {
+          "id": "medication-adherence",
+          "title": "Medication Compliance",
+          "description": "Continue antibiotics and pain medication as prescribed.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "osseointegration",
+          "title": "Healing Phase",
+          "description": "Allow 3-6 months for osseointegration before restorative phase.",
+          "priority": "high"
+        },
+        {
+          "id": "regular-monitoring",
+          "title": "Implant Maintenance",
+          "description": "Schedule regular check-ups and professional cleanings every 6 months.",
+          "priority": "medium"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Protein-rich soft foods: yogurt, cottage cheese, scrambled eggs",
+        "Calcium and vitamin D-rich foods: fortified plant milks, leafy greens",
+        "Soft fruits and vegetables"
+      ],
+      "foodsToAvoid": [
+        "Hard, crunchy foods that could damage surgical site",
+        "Hot, spicy foods that may irritate healing tissues",
+        "Alcohol and carbonated drinks"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water to support healing",
+        "Avoid straws for first 24 hours"
+      ],
+      "supplements": [
+        "Calcium (1000mg daily) and vitamin D (800-1000 IU) for bone healing",
+        "Consider vitamin C for tissue repair"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "surgical-site-care",
+        "title": "Surgical Site Protection",
+        "description": "Avoid brushing surgical site for 24 hours. Use soft toothbrush elsewhere.",
+        "priority": "high"
+      },
+      {
+        "id": "saltwater-rinse",
+        "title": "Saltwater Rinses",
+        "description": "After 24 hours, rinse gently with warm saltwater 3-4 times daily.",
+        "priority": "high"
+      },
+      {
+        "id": "chlorhexidine",
+        "title": "Chlorhexidine Rinse",
+        "description": "Use chlorhexidine 0.12% twice daily for 1-2 weeks.",
+        "priority": "high"
+      },
+      {
+        "id": "no-smoking",
+        "title": "No Smoking",
+        "description": "Do not smoke for at least 2 weeks to promote healing.",
+        "priority": "high"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "prescribed-pain-meds",
+        "title": "Prescribed Pain Medication",
+        "description": "Take pain medication as prescribed. Start before pain becomes severe.",
+        "priority": "high"
+      },
+      {
+        "id": "ice-continuation",
+        "title": "Continued Ice Therapy",
+        "description": "Continue ice application for first 48 hours to manage swelling.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "implant-mobility",
+        "title": "Implant Mobility",
+        "description": "If implant feels loose, contact dentist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "severe-pain",
+        "title": "Severe Pain",
+        "description": "Pain that worsens after 3-4 days may indicate complications.",
+        "priority": "high"
+      },
+      {
+        "id": "infection-signs",
+        "title": "Signs of Infection",
+        "description": "Fever, increasing swelling, pus, redness around implant site.",
+        "priority": "high"
+      },
+      {
+        "id": "nerve-symptoms",
+        "title": "Nerve Involvement",
+        "description": "Numbness, tingling, or altered sensation in lips/chin requires immediate attention.",
+        "priority": "high"
+      },
+      {
+        "id": "sinus-communication",
+        "title": "Sinus Issues",
+        "description": "If upper implant placement, watch for nasal discharge or voice changes.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "wisdom-tooth-extraction": {
+    "preOperative": [
+      {
+        "id": "pre-surgical-rinse",
+        "title": "Pre-Surgical Rinse",
+        "description": "Use chlorhexidine rinse twice daily for 1 week before surgery.",
+        "priority": "high"
+      },
+      {
+        "id": "smoking-cessation",
+        "title": "Smoking Cessation",
+        "description": "Stop smoking at least 1 week before surgery.",
+        "priority": "high"
+      },
+      {
+        "id": "arrange-care",
+        "title": "Arrange Post-Operative Care",
+        "description": "Arrange for someone to stay with you for 24 hours after surgery.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "gauze-pressure",
+          "title": "Gauze Pressure",
+          "description": "Bite firmly on gauze packs for 45-60 minutes. Change as needed.",
+          "priority": "high"
+        },
+        {
+          "id": "ice-therapy",
+          "title": "Immediate Ice Application",
+          "description": "Apply ice packs immediately and continue for first 24 hours.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "bed-rest",
+          "title": "Bed Rest",
+          "description": "Rest in bed with head elevated above heart level.",
+          "priority": "high"
+        },
+        {
+          "id": "no-straw",
+          "title": "No Straws/Smoking",
+          "description": "Do not use straws, smoke, or drink alcohol for 24 hours.",
+          "priority": "high"
+        },
+        {
+          "id": "pain-medication",
+          "title": "Scheduled Pain Medication",
+          "description": "Take pain medication on schedule, before pain becomes severe.",
+          "priority": "high"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft, cool foods. Avoid hot, spicy, or acidic foods.",
+          "priority": "high"
+        },
+        {
+          "id": "gentle-rinsing",
+          "title": "Gentle Oral Care",
+          "description": "Begin gentle saltwater rinses after 24 hours, 3-4 times daily.",
+          "priority": "high"
+        },
+        {
+          "id": "activity-limitation",
+          "title": "Limited Activity",
+          "description": "Avoid strenuous exercise, bending, heavy lifting for 3-4 days.",
+          "priority": "medium"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "socket-healing",
+          "title": "Socket Healing",
+          "description": "Extraction sites should heal within 1-2 weeks. Return for suture removal.",
+          "priority": "medium"
+        },
+        {
+          "id": "follow-up",
+          "title": "Follow-Up Appointment",
+          "description": "Attend follow-up appointment 1 week after surgery.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Cold, soft foods: ice cream, yogurt, smoothies, applesauce",
+        "Protein-rich foods: scrambled eggs, cottage cheese, protein shakes",
+        "Soups and broths at room temperature"
+      ],
+      "foodsToAvoid": [
+        "Hot foods and beverages",
+        "Spicy, acidic, or rough foods",
+        "Small grains, seeds, nuts that can get stuck in sockets",
+        "Alcohol and carbonated drinks"
+      ],
+      "hydrationGuidelines": [
+        "Drink plenty of water at room temperature",
+        "Avoid straws and carbonated drinks for first 24 hours"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "avoid-surgical-sites",
+        "title": "Protect Surgical Sites",
+        "description": "Do not brush extraction sites for 24 hours. Brush other teeth normally.",
+        "priority": "high"
+      },
+      {
+        "id": "saltwater-rinse",
+        "title": "Saltwater Mouth Rinses",
+        "description": "After 24 hours, rinse gently with warm saltwater 3-4 times daily for 1 week.",
+        "priority": "high"
+      },
+      {
+        "id": "antiseptic-rinse",
+        "title": "Chlorhexidine Rinse",
+        "description": "Use chlorhexidine 0.12% twice daily for 1 week.",
+        "priority": "high"
+      },
+      {
+        "id": "no-smoking",
+        "title": "No Smoking/Vaping",
+        "description": "Do not smoke or vape for at least 48 hours, preferably 1 week.",
+        "priority": "high"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "prescribed-analgesics",
+        "title": "Prescribed Pain Medication",
+        "description": "Take prescribed pain medication regularly for first 48 hours.",
+        "priority": "high"
+      },
+      {
+        "id": "anti-inflammatory",
+        "title": "Anti-Inflammatory Drugs",
+        "description": "Ibuprofen is preferred for its swelling reduction effects.",
+        "priority": "high"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "dry-socket",
+        "title": "Dry Socket",
+        "description": "Severe pain 2-4 days after surgery with bad taste/smell. Contact dentist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "excessive-bleeding",
+        "title": "Excessive Bleeding",
+        "description": "Bleeding that doesn't stop with pressure or soaks through gauze.",
+        "priority": "high"
+      },
+      {
+        "id": "infection-signs",
+        "title": "Signs of Infection",
+        "description": "Fever over 101°F, increasing swelling, severe pain, pus, foul odor.",
+        "priority": "high"
+      },
+      {
+        "id": "trismus",
+        "title": "Limited Jaw Opening",
+        "description": "Difficulty opening mouth beyond 1 inch after 3-4 days.",
+        "priority": "medium"
+      },
+      {
+        "id": "nerve-damage",
+        "title": "Nerve Damage Signs",
+        "description": "Persistent numbness, tingling in tongue, lips, or chin.",
+        "priority": "high"
+      }
+    ]
+  },
+  "orthodontic-treatment": {
+    "preOperative": [
+      {
+        "id": "oral-hygiene-prep",
+        "title": "Oral Hygiene Preparation",
+        "description": "Establish excellent oral hygiene routine before starting treatment.",
+        "priority": "high"
+      },
+      {
+        "id": "dietary-adjustment",
+        "title": "Dietary Adjustments",
+        "description": "Avoid hard, sticky foods that could damage appliances.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "appliance-comfort",
+          "title": "Appliance Adjustment",
+          "description": "Expect some discomfort as teeth begin moving. Use prescribed wax for irritation.",
+          "priority": "medium"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "pain-management",
+          "title": "Pain Management",
+          "description": "Take over-the-counter pain relievers as needed for discomfort.",
+          "priority": "medium"
+        },
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft foods to avoid stressing new appliances.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "oral-hygiene",
+          "title": "Enhanced Oral Hygiene",
+          "description": "Brush after every meal. Use floss threaders and interdental brushes.",
+          "priority": "high"
+        },
+        {
+          "id": "appliance-care",
+          "title": "Appliance Care",
+          "description": "Avoid hard, sticky foods. Wear appliances as prescribed.",
+          "priority": "high"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "regular-adjustments",
+          "title": "Regular Appointments",
+          "description": "Attend adjustment appointments every 4-6 weeks as scheduled.",
+          "priority": "high"
+        },
+        {
+          "id": "retention-phase",
+          "title": "Retention",
+          "description": "Wear retainers full-time initially, then nightly long-term.",
+          "priority": "high"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Soft foods during initial adjustment period",
+        "Nutritious meals to support bone health: calcium-rich foods, vitamin D sources",
+        "Cut foods into small pieces if needed"
+      ],
+      "foodsToAvoid": [
+        "Hard foods: nuts, hard candies, ice, raw carrots",
+        "Sticky foods: gum, caramel, taffy",
+        "Chewy foods: bagels, tough meats",
+        "Sugary foods that increase caries risk"
+      ],
+      "hydrationGuidelines": [
+        "Maintain good hydration",
+        "Drink water regularly to clean around appliances"
+      ],
+      "supplements": [
+        "Calcium and vitamin D supplements if dietary intake is inadequate"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "brushing-technique",
+        "title": "Special Brushing Technique",
+        "description": "Brush after every meal for 2 minutes. Use orthodontic toothbrush.",
+        "priority": "high"
+      },
+      {
+        "id": "flossing-threaders",
+        "title": "Flossing with Threaders",
+        "description": "Use floss threaders to clean under wires. Floss daily.",
+        "priority": "high"
+      },
+      {
+        "id": "interdental-cleaning",
+        "title": "Interdental Brushes",
+        "description": "Use interdental brushes to clean between brackets and wires.",
+        "priority": "high"
+      },
+      {
+        "id": "mouthwash",
+        "title": "Fluoride Mouthwash",
+        "description": "Use fluoride rinse daily to strengthen teeth and prevent decalcification.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "over-counter-relief",
+        "title": "Over-the-Counter Pain Relief",
+        "description": "Use ibuprofen or acetaminophen for orthodontic discomfort.",
+        "priority": "medium"
+      },
+      {
+        "id": "wax-relief",
+        "title": "Orthodontic Wax",
+        "description": "Apply wax to brackets causing irritation.",
+        "priority": "low"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "severe-pain",
+        "title": "Severe Pain",
+        "description": "Pain that doesn't improve with medication or lasts more than 1 week.",
+        "priority": "medium"
+      },
+      {
+        "id": "loose-brackets",
+        "title": "Loose Appliances",
+        "description": "If brackets or wires become loose, contact orthodontist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "soft-tissue-injury",
+        "title": "Soft Tissue Injury",
+        "description": "Ulcers or cuts in mouth that don't heal within 1-2 weeks.",
+        "priority": "medium"
+      },
+      {
+        "id": "allergic-reaction",
+        "title": "Allergic Reaction",
+        "description": "Rash, swelling, or itching from appliances requires immediate attention.",
+        "priority": "high"
+      },
+      {
+        "id": "root-resorption",
+        "title": "Signs of Complications",
+        "description": "Unusual tooth mobility or severe pain may indicate complications.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "crown-bridge-treatment": {
+    "preOperative": [
+      {
+        "id": "tooth-prep",
+        "title": "Tooth Preparation",
+        "description": "Temporary restoration may be placed. Avoid chewing on it until final restoration.",
+        "priority": "medium"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "anesthesia-care",
+          "title": "Anesthesia Precautions",
+          "description": "Avoid eating until numbness wears off to prevent injury.",
+          "priority": "high"
+        },
+        {
+          "id": "temporary-care",
+          "title": "Temporary Restoration Care",
+          "description": "Be gentle with temporary crown. Avoid sticky/hard foods.",
+          "priority": "medium"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "pain-monitoring",
+          "title": "Pain Assessment",
+          "description": "Some sensitivity is normal. Take pain medication as prescribed.",
+          "priority": "medium"
+        },
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Eat soft foods and chew on opposite side of mouth.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "hygiene-maintenance",
+          "title": "Oral Hygiene",
+          "description": "Maintain excellent hygiene. Brush and floss carefully around temporary.",
+          "priority": "high"
+        },
+        {
+          "id": "avoid-irritants",
+          "title": "Avoid Irritants",
+          "description": "Avoid very hot/cold foods that may cause sensitivity.",
+          "priority": "low"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "final-appointment",
+          "title": "Final Restoration",
+          "description": "Return for placement of permanent crown/bridge as scheduled.",
+          "priority": "high"
+        },
+        {
+          "id": "long-term-care",
+          "title": "Long-Term Maintenance",
+          "description": "Practice excellent oral hygiene. Schedule regular check-ups.",
+          "priority": "medium"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Soft foods during temporary phase",
+        "Balanced diet for overall health",
+        "Foods that don't require excessive chewing on treated side"
+      ],
+      "foodsToAvoid": [
+        "Hard, crunchy foods that could damage temporary restoration",
+        "Sticky foods like gum or caramel that could dislodge temporary",
+        "Very hot or cold foods if sensitivity occurs"
+      ],
+      "hydrationGuidelines": [
+        "Maintain normal hydration",
+        "Drink water to help clean around restorations"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "gentle-brushing",
+        "title": "Gentle Brushing",
+        "description": "Brush gently around temporary restoration. Use soft toothbrush.",
+        "priority": "high"
+      },
+      {
+        "id": "flossing-care",
+        "title": "Careful Flossing",
+        "description": "Floss carefully around temporary. Use floss threaders if needed.",
+        "priority": "high"
+      },
+      {
+        "id": "antimicrobial-rinse",
+        "title": "Antimicrobial Rinse",
+        "description": "Use chlorhexidine rinse twice daily if gum inflammation is present.",
+        "priority": "medium"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "over-counter-medication",
+        "title": "Over-the-Counter Medication",
+        "description": "Use ibuprofen or acetaminophen for discomfort as needed.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "temporary-loose",
+        "title": "Loose Temporary",
+        "description": "If temporary crown/bridge becomes loose, contact dentist immediately.",
+        "priority": "high"
+      },
+      {
+        "id": "severe-pain",
+        "title": "Severe Pain",
+        "description": "Pain that worsens or doesn't improve with medication.",
+        "priority": "high"
+      },
+      {
+        "id": "gum-inflammation",
+        "title": "Gum Inflammation",
+        "description": "Red, swollen gums around temporary that persist.",
+        "priority": "medium"
+      },
+      {
+        "id": "allergic-reaction",
+        "title": "Allergic Reaction",
+        "description": "Rash, swelling, or itching from materials used.",
+        "priority": "high"
+      }
+    ]
+  },
+  "pediatric-dentistry": {
+    "preOperative": [
+      {
+        "id": "behavior-prep",
+        "title": "Behavioral Preparation",
+        "description": "Discuss treatment with child using age-appropriate language. Use positive reinforcement.",
+        "priority": "high"
+      },
+      {
+        "id": "parent-involvement",
+        "title": "Parent Involvement",
+        "description": "Parents should stay with child during treatment for comfort and support.",
+        "priority": "high"
+      }
+    ],
+    "postOperative": {
+      "immediate": [
+        {
+          "id": "comfort-care",
+          "title": "Comfort Care",
+          "description": "Provide comfort items like favorite toys or blankets. Praise good behavior.",
+          "priority": "high"
+        },
+        {
+          "id": "anesthesia-monitoring",
+          "title": "Anesthesia Monitoring",
+          "description": "Monitor for return of sensation. Avoid hot foods until normal feeling returns.",
+          "priority": "high"
+        }
+      ],
+      "first24Hours": [
+        {
+          "id": "pain-management",
+          "title": "Pain Management",
+          "description": "Give prescribed pain medication on schedule. Use appropriate dosing for age/weight.",
+          "priority": "high"
+        },
+        {
+          "id": "soft-diet",
+          "title": "Soft Diet",
+          "description": "Provide soft, cool foods. Avoid hard or crunchy foods.",
+          "priority": "medium"
+        }
+      ],
+      "firstWeek": [
+        {
+          "id": "oral-hygiene",
+          "title": "Age-Appropriate Hygiene",
+          "description": "Assist with gentle brushing and flossing. Use child-sized toothbrush.",
+          "priority": "high"
+        },
+        {
+          "id": "reinforcement",
+          "title": "Positive Reinforcement",
+          "description": "Praise good oral hygiene habits. Make brushing fun.",
+          "priority": "medium"
+        }
+      ],
+      "ongoing": [
+        {
+          "id": "regular-visits",
+          "title": "Regular Dental Visits",
+          "description": "Schedule recall visits every 6 months for prevention and monitoring.",
+          "priority": "high"
+        },
+        {
+          "id": "fluoride-supplements",
+          "title": "Fluoride Supplementation",
+          "description": "Use fluoride supplements or toothpaste as recommended for caries prevention.",
+          "priority": "medium"
+        }
+      ]
+    },
+    "nutrition": {
+      "foodsToEat": [
+        "Calcium-rich foods: milk, cheese, yogurt for developing teeth",
+        "Crunchy vegetables for natural cleaning (supervised)",
+        "Balanced meals with adequate nutrients for growth"
+      ],
+      "foodsToAvoid": [
+        "Sugary snacks and drinks between meals",
+        "Sticky foods that adhere to teeth",
+        "Carbonated drinks that can erode enamel"
+      ],
+      "hydrationGuidelines": [
+        "Drink fluoridated water if available",
+        "Limit sugary drinks; encourage water and milk"
+      ],
+      "supplements": [
+        "Fluoride supplements if water is not fluoridated",
+        "Vitamin D supplements if deficient"
+      ]
+    },
+    "oralHygiene": [
+      {
+        "id": "supervised-brushing",
+        "title": "Supervised Brushing",
+        "description": "Parents should supervise brushing until age 8-10. Use pea-sized amount of fluoride toothpaste.",
+        "priority": "high"
+      },
+      {
+        "id": "flossing-training",
+        "title": "Flossing Training",
+        "description": "Teach proper flossing technique. Assist until child can do independently.",
+        "priority": "medium"
+      },
+      {
+        "id": "fluoride-rinse",
+        "title": "Fluoride Rinse",
+        "description": "Use age-appropriate fluoride mouth rinse daily under supervision.",
+        "priority": "medium"
+      },
+      {
+        "id": "sealant-maintenance",
+        "title": "Sealant Care",
+        "description": "Avoid chewing ice or hard objects that could damage sealants.",
+        "priority": "low"
+      }
+    ],
+    "painManagement": [
+      {
+        "id": "age-appropriate-dosing",
+        "title": "Age-Appropriate Pain Relief",
+        "description": "Use ibuprofen or acetaminophen dosed by weight. Follow pediatric dosing guidelines.",
+        "priority": "high"
+      },
+      {
+        "id": "comfort-measures",
+        "title": "Non-Pharmacologic Comfort",
+        "description": "Use distraction, favorite toys, or cold treats for comfort.",
+        "priority": "medium"
+      }
+    ],
+    "warningSigns": [
+      {
+        "id": "persistent-pain",
+        "title": "Persistent Pain",
+        "description": "Pain that lasts more than 2-3 days or worsens requires evaluation.",
+        "priority": "high"
+      },
+      {
+        "id": "swelling-infection",
+        "title": "Signs of Infection",
+        "description": "Fever, facial swelling, or pus indicates infection needing immediate care.",
+        "priority": "high"
+      },
+      {
+        "id": "behavior-changes",
+        "title": "Behavioral Changes",
+        "description": "Sudden fear of dental procedures or refusal to eat may indicate pain.",
+        "priority": "medium"
+      },
+      {
+        "id": "allergic-reaction",
+        "title": "Allergic Reaction",
+        "description": "Rash, swelling, or breathing difficulties from medications or materials.",
+        "priority": "high"
+      },
+      {
+        "id": "trauma-signs",
+        "title": "Signs of Trauma",
+        "description": "Avulsed tooth or severe injury requires immediate emergency care.",
+        "priority": "high"
+      }
+    ]
+  }
+}
